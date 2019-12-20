@@ -1,0 +1,66 @@
+* {
+margin: 0px;
+background-origin: padding-box;
+}
+
+body {
+
+border: 5px solid #FF0000;
+font-family: 'Roboto', sans-serif;
+}
+
+.header {
+
+border: 5px solid #B10FCB;
+font-size: 46px;
+text-transform: uppercase;
+text-align: center;
+padding-top: 84px   ;
+height:160px ;
+}
+
+main {
+
+border: 5px solid  #74E6FF;
+display: grid;
+grid-template-columns: 30% 70%;
+height: 669px;
+
+}
+
+aside {
+
+
+border: 5px solid #5DFF11;
+text-align: center;
+font-style: normal;
+font-weight: normal;
+font-size: 46px;
+text-transform: uppercase;
+padding-top: 46px;
+}
+
+section{
+
+    border: 5px solid blue;
+}
+
+main h2 {
+
+    border: 5px solid orange;
+    height: 130px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    text-align: center;
+    padding-top: 70px;
+    text-transform: uppercase;
+
+}
+
+main p {
+
+    border: 5px solid #FF1FF6;
+    height: 20px;
+    height: 439px;
+}
