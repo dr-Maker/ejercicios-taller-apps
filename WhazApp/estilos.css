@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+}
+
+body {
+
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+header nav {
+
+    border: 3px solid greenyellow;
+
+}
+
+header nav h2 {
+    border: 2px solid blue;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header nav ul {
+    border: 2px solid yellow;
+    padding: 0px;
+
+}
+
+header nav ul li {
+
+    border: 2px solid cyan;
+    list-style: none;
+    height: 20px;
+    text-decoration: double;
+    text-align-last: bottom;
+    padding-left: 10px;
+    padding-top: 80px;
+}
+
+header nav ul .elegido {
+
+    background-color: rgb(176, 176, 176);
+}
+
+main {
+    border: 2px solid blueviolet;
+}
+
+main h2 {
+    border: 2px solid blue;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+main section {
+    border: 2px solid cyan;
+
+}
+
+main section p {
+    border: 2px solid saddlebrown;
+    height: 500px;
+}
+
+main section input {
+    border: 2px solid green;
+    justify-content: bottom;
+    height: 120px;
+    width: 100%;
+    padding-left: 20px;
+    font-size: 20px
+}
