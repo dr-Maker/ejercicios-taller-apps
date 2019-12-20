@@ -2,8 +2,8 @@
 
 function validar(){
 
-var user = document.getElementById('iduser').value;
-var pass = document.getElementById('idpass').value;
+let user = document.getElementById('iduser').value;
+let pass = document.getElementById('idpass').value;
 
 if(user=="admin" && pass=="12345"){
 
