@@ -6,22 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Safary</title>
     <link rel="stylesheet" href="./css/estilo.css">
+    
+<script src="./javascript/index.js"></script>
 </head>
 <body>
 <form>
 
         <Header>
-        <h1>
+        <h1 id="head">
             Ingresa a Safary
         </h1>
     </Header>
 
-        <input type="text" placeholder="ingresa tu correo">
+        <input id="iduser" type="text" name="usuario" placeholder="ingresa tu correo">
 
-        <input type="password" placeholder="ingresa tu contraseña">
+        <input id="idpass" type="password" name="pass" placeholder="ingresa tu contraseña">
 
         
-            <a class="boton" href="#">LOGIN</a>
+            <a class="boton" id="btn"onclick=validar(); href="#">LOGIN</a>
         
     <footer>
             yo <img src="./imagenes/corazon.gif" alt="corazon"> Safary
