@@ -5,28 +5,29 @@
 
 body {
 
-        
+
     display: grid;
     grid-template-columns: 30% 70%;
- 
+    min-width: 1200px;
 
 }
 
 header {
-margin: 0px;
-padding: 0px;
-background: #dcdcdc;
+    margin: 0px;
+    padding: 0px;
+    background: #dcdcdc;
 
 }
 
 header nav {
 
-    border-left-color: 3px  black;
+    border-left-color: 3px black;
+
 
 }
 
 header nav h2 {
- 
+
     height: 100px;
     text-align: left;
     padding-top: 0px;
@@ -41,6 +42,7 @@ header nav ul {
     padding: 0px;
     background: white;
 
+
 }
 
 header nav ul li {
@@ -53,10 +55,10 @@ header nav ul li {
     padding-left: 10px;
     padding-top: 80px;
     cursor: pointer;
-    
+
 }
 
-.nombre{
+.nombre {
 
     position: relative;
     top: -110px;
@@ -65,49 +67,41 @@ header nav ul li {
 }
 
 
-li img{
+li img {
 
     position: relative;
     top: -60px;
     left: 30px;
     height: 70px;
-    border-radius: 50px ;
+    border-radius: 50px;
 
 }
 
 li:hover {
 
-    background-color:#ececec;
+    background-color: #ececec;
 }
 
 main {
-   margin: 0px;
-   padding: 0px;
-    background: #f4f4f4;
+    margin: 0px;
+    padding: 0px;
     border-left: 1px solid black;
-    background: #dcdcdc;
+    background: #f4f4f4;
 }
 
 main h2 {
-    
+
     background: #dcdcdc;
     height: 100px;
-    text-align: center;
-    padding-top: 0px;
     font-size: 50px;
-    position: relative
-
-}
-h2{
-    
-    position: relative;
-    top: 10px;
+    text-align: center;
+    line-height: 90px;
 
 }
 
 
 main section p {
- 
+
     height: 495px;
 }
 
@@ -119,17 +113,17 @@ main section input {
     font-size: 20px
 }
 
-.mensaje{
+.mensaje {
 
     background: #f4f4f4;
 }
 
-.input{
+.input {
     border-radius: 50px;
     height: 40px;
     width: 93%;
     position: relative;
     left: 20px;
     top: 50px;
-    
+
 }
